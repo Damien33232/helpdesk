@@ -1,0 +1,320 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: 'Calibri';
+}
+
+html{
+overflow: hidden;
+}
+
+body {
+ background-color: pink;
+}
+
+#Background {
+    background-color: rgb(38, 206, 178);
+}
+
+#TBackground {
+    background-color: lightcoral;
+}
+
+.nav-wrapper {
+ width:100%;
+ background: #93a9d5;
+}
+
+.Tnav {
+ background: rgb(59, 232, 245);
+ width: 100%;
+ font-weight: bold;
+ cursor: default;
+}
+
+nav ul li {
+ display: inline-block;
+ list-style-type: none;
+ margin: 2px;
+ padding: 10px 3px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: lightgreen;
+ font-weight: bold;
+ cursor: default;
+}
+
+.nav-menu {
+ position:relative;
+ display:inline-block;
+ font-weight: bold;
+ cursor: default;
+}
+ 
+.sub-menu {
+ position:absolute;
+ display: none;
+ background: #555;
+ margin-top: 11px;
+ width: 92%;
+ cursor: pointer;
+ font-weight: 300;
+}
+
+.navcontent {
+ color: black;
+}
+
+.nav-menu ul li:hover > ul {
+ display:block;
+}
+
+.nav-menu > ul > li:after {
+ font-size: .5em;
+ display: block;
+}
+
+.sub-menu > li:hover {
+ background-color: white;
+ font-weight: bold;
+ width: 93%;
+}
+
+.subheading {
+ text-align: center;
+ font-weight: bold;
+ text-decoration-line: underline;
+}
+
+ li a:hover{
+ background-color:red;
+ color:black;
+ padding: 13%;
+}		
+li a:hover:not(.active) {
+ background-color: #FF0080;
+}
+
+.active {
+ background-color: #FF00BF;
+}  
+
+.rek {
+ margin-top: 7%;
+ margin-left: 15%;
+ margin-right: 15%;
+ padding: 0;
+ border: solid black;
+}
+
+#t1 {
+ margin-top: 7%;
+ margin-left: 30%;
+ margin-right: 30%;
+ padding: 0;
+ border: solid black; 
+}
+
+#Index {
+ text-align: center;
+ font-family: 'Calibri';
+ font-weight: bold;
+ font-size: 70px;
+}
+
+header {
+ text-align: center;
+ font-weight: bold;
+ font-size: 50px;
+}
+
+header a {
+ text-decoration: none;
+ color: black;
+}
+
+header a:visited{
+ text-decoration: none;
+ color: black;
+}
+
+h1 {
+ text-align: center;
+ font-weight: bold;
+}
+
+h3 {
+ text-align: center;
+ font-weight: bold;
+ text-decoration-line: underline;
+}
+
+.btn-group {
+ margin-left: 22%;
+ margin-top: 2%;
+ margin-bottom: 2%;
+}
+
+.btn {
+ margin-bottom: 2%;
+ padding: 1%;
+}
+
+.button1 {
+ background-color:pink;
+ color:black;
+ padding: 32px;
+ text-align: center;
+ margin-left: 50%;
+ position: relative;
+ font-size:40px;
+ border-radius: 9%;
+}
+
+.button2{
+ background-color:lightskyblue;
+ color:black;
+ padding:32px;
+ text-align:center;
+ margin-right:10%;
+ margin-left:10%;
+ font-size:40px;
+ border-radius: 10%;
+}
+
+.weergaven {
+ width: 20%;
+ height: 225px;
+ margin-left: 39%;
+ margin-top: 2%;
+ font-weight: bold;
+ font-family: 'Calibri';
+ border: solid black;
+ border-radius: 9%;
+}
+
+#weergaven {
+ width: 20%;
+ height: 250px;
+ margin-left: 39%;
+ margin-top: 2%;
+ font-weight: bold;
+ font-family: 'Calibri';
+ border: solid black;
+ border-radius: 9%;
+}
+
+#toetsen {
+ margin-top: 5%;
+ margin-left: 36%;
+}
+
+#tafel{
+ background-color: pink;
+ text-align: center;
+ margin: 2%;
+}
+
+#Controleer {
+ background-color: powderblue;
+ color: black;
+ margin-left: 1px;
+ width: 60%;
+}
+
+#oefenblad1 {
+ display: none;
+ background-color:rgb(38, 206, 178);
+ color:black;
+ padding: 20px;
+ text-align: center;
+ top: 62%;
+ left: 21%;
+ position: absolute;
+ font-size: 30px;
+ border-color: black;
+ border-radius: 9%;
+ cursor: pointer;
+}
+
+#oefenblad1 a {
+ text-decoration: none;
+ color: black;
+}
+
+#oefenblad2 {
+ display: none;
+ background-color:rgb(38, 206, 178);
+ color:black;
+ padding: 20px;
+ text-align: center;
+ top: 62%;
+ left: 65%;
+ position: absolute;
+ font-size: 30px;
+ border-color: black;
+ border-radius: 9%;
+ cursor: pointer;
+}
+
+#oefenblad2 a {
+ text-decoration: none;
+ color: black;
+}
+
+.btn-group button {
+ /* Background */
+ background-color: powderblue;
+
+ /* Border */
+ border: 1px solid purple;
+
+ /* Text */
+ color: black;
+ font-weight: bold;
+
+ /* Padding */
+ padding: 10px 24px;
+
+ /* Pointer */
+ cursor: pointer;
+
+ /* Float */
+ float: left;
+
+}
+
+/* Clear */
+.btn-group:after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+/* Geen double borders */
+.btn-group button:not(:last-child) {
+ border-right: none;
+}
+
+/* Background color on hover */
+.btn-group button:hover {
+ background-color: #af88b8;
+}
+
+.btn-group button a:visited {
+ color: white
+}
+
+.btn-group a {
+ text-decoration: none;
+}
+
+.som {
+display: flex;
+}
+
+.som input {
+ margin: 0 0 0 4px;
+}
